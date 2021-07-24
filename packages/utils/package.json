@@ -6,6 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "tsc -b .",
+    "clean": "rimraf dist  *.tsbuildinfo"
+  },
   "dependencies": {
     "@types/date-fns": "^2.6.0",
     "@types/jest": "^26.0.24",
